@@ -63,8 +63,7 @@ $(document).ready(function () {
     $('#formSubmit').click(() => {
         submitForm();
     })
-    // console.log("inside ready"+formData)
-    // addCards(cardList);
+    
     $('.modal').modal();
     getAllCats();
 });
